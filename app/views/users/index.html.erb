@@ -1,5 +1,6 @@
 <% @users.each do |user| %>
-  <%= user.name %>
+  <%= user.name %> - 
+  <%= user.lastname %> |
 <% end %>
 
 <%= link_to 'New user', new_user_path(@user) %>
